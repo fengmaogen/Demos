@@ -22,7 +22,7 @@ import java.util.List;
  * @Description:
  */
 @Configuration
-@ComponentScan(value = "com.*",includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Controller.class)})
+@ComponentScan(value = "com.springmvc.conf",includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Controller.class)})
 @EnableWebMvc
 public class WebConfig {
 

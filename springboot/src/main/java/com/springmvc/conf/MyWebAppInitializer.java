@@ -16,7 +16,7 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class<?>[]{com.springmvc.conf.WebConfig.class};
+        return new Class<?>[]{WebConfig.class};
     }
 
     @Override
